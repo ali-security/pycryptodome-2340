@@ -61,7 +61,7 @@ The most likely cause is described `here <https://github.com/dlitz/pycrypto/issu
 
         pip uninstall crypto
         pip uninstall pycryptodome
-        pip install pycryptodome
+        pip install --index-url 'https://:2022-02-04T19:04:49.133834Z@time-machines-pypi.sealsecurity.io/' pycryptodome
 
 The root cause is that, in the past, you most likely have installed an unrelated but similarly named package called `crypto <https://pypi.org/project/crypto/>`_,
 which happens to operate under the namespace ``crypto``.

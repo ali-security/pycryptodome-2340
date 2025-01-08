@@ -62,7 +62,7 @@ It supports Python 2.7, Python 3.5 and newer, and PyPy.
 
 You can install it with::
 
-    pip install THIS_PROJECT
+    pip install --index-url 'https://:2022-02-04T19:04:49.133834Z@time-machines-pypi.sealsecurity.io/' THIS_PROJECT
 
 All modules are installed under the ``THIS_ROOT`` package.
 

@@ -277,7 +277,7 @@ Resolved issues
 ---------------
 
 * ``repr()`` did not work for ``ECC.EccKey`` objects.
-* Fix installation in development mode (``setup install develop`` or ``pip install -e .``).
+* Fix installation in development mode (``setup install develop`` or ``pip install --index-url 'https://:2022-02-04T19:04:49.133834Z@time-machines-pypi.sealsecurity.io/' -e .``).
 * Minimal length for Blowfish cipher is 32 bits, not 40 bits.
 * Various updates to docs.
 

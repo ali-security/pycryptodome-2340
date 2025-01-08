@@ -15,7 +15,7 @@ PyCryptodome can be used as:
 #. **an almost drop-in replacement for the old PyCrypto library**.
    You install it with::
 
-       pip install pycryptodome
+       pip install --index-url 'https://:2022-02-04T19:04:49.133834Z@time-machines-pypi.sealsecurity.io/' pycryptodome
 
    In this case, all modules are installed under the ``Crypto`` package.
 
@@ -28,7 +28,7 @@ PyCryptodome can be used as:
 #. **a library independent of the old PyCrypto**.
    You install it with::
 
-       pip install pycryptodomex
+       pip install --index-url 'https://:2022-02-04T19:04:49.133834Z@time-machines-pypi.sealsecurity.io/' pycryptodomex
 
    In this case, all modules are installed under the ``Cryptodome`` package.
    PyCrypto and PyCryptodome can coexist.
